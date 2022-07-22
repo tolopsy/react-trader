@@ -17,6 +17,7 @@
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@types/react-redux": "^7.1.24",
+    "@types/react-router-dom": "^5.3.3",
     "ag-grid-community": "^28.0.2",
     "ag-grid-react": "^28.0.0",
     "date-fns": "^2.28.0",
