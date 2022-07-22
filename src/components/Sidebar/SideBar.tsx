@@ -1,7 +1,8 @@
 import React from "react";
-import { Drawer, IconButton, Typography } from "@mui/material";
+import { Divider, Drawer, IconButton, Typography } from "@mui/material";
 import { styled, useTheme } from "@mui/material/styles";
-import { ChevronLeft, ChevronRight} from "@mui/icons-material"
+import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
+import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 
 
 const DrawerHeader = styled("div")(({ theme}) => ({
@@ -56,9 +57,11 @@ export const SideBar: React.FC<Props> = ({
             </Typography>
           </LogoStyled>
           <IconButton onClick={handleSidebarToggle}>
-            {theme.direction === "ltr" ? (<ChevronLeft />) : (<ChevronRight />)}
+            {theme.direction === "ltr" ? (<ChevronLeftIcon />) : (<ChevronRightIcon />)}
           </IconButton>
         </DrawerHeader>
+        <Divider />
+        {children}
       </Drawer>
     </>
   );
