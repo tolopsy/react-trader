@@ -1,11 +1,14 @@
 import React, { useState, useCallback } from 'react';
 import { createTheme, CssBaseline, ThemeProvider } from "@mui/material";
+import { Routes, Route, useNavigate } from 'react-router-dom';
 import { AppBarComponent, Menu, SideBar } from './components';
-import { ROUTES } from './routes';
+import { ROUTES, MAIN, BLOTTER, TRADETICKET } from './routes';
+import { Blotter, Dashboard, TradeTicket } from './features';
 
 const App: React.FC = (): JSX.Element => {
   const [themeMode, setThemeMode] = useState<"light" | "dark">("dark");
   const [sideBarToggle, setSideBarToggle] = useState<boolean>(false);
+  const navigate = useNavigate()
 
   const theme = createTheme({
     direction: "ltr",
@@ -23,6 +26,10 @@ const App: React.FC = (): JSX.Element => {
   const onThemeChange = useCallback(() => {
     setThemeMode(themeMode === "dark" ? "light": "dark");
   }, [themeMode]);
+  const handleMenuLinkClick = useCallback((linkPath: string) => {
+    navigate(linkPath)
+    setSideBarToggle(!sideBarToggle);
+  }, [navigate, sideBarToggle]);
 
   return (
     <ThemeProvider theme={theme}>
@@ -36,8 +43,13 @@ const App: React.FC = (): JSX.Element => {
       <SideBar
         isOpen={sideBarToggle}
         handleSidebarToggle={handleMenuToggle}
-        children={<Menu links={ROUTES} />}
+        children={<Menu links={ROUTES} handleMenuLinkClick={handleMenuLinkClick} />}
       />
+      <Routes>
+        <Route path={MAIN} element={<Dashboard/>}/>
+        <Route path={BLOTTER} element={<Blotter/>}/>
+        <Route path={TRADETICKET} element={<TradeTicket/>}/>
+      </Routes>
     </ThemeProvider>
   );
 }
