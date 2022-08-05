@@ -27,6 +27,7 @@ export const DataGrid = <T,>({
   rowClickHandler = undefined,
 }: DataGridProps<T>): JSX.Element => {
   const [gridApi, setGridApi] = useState<GridApi>();
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [gridColumnApi, setGridColumnApi] = useState(null);
   const { palette } = useTheme();
   const onGridReady = (params: any) => {
