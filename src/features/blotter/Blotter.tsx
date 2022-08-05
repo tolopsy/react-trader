@@ -1,10 +1,11 @@
 import React, { useCallback, useState } from "react";
 import { DataGrid } from "../../components";
 import { useGetTradesQuery } from "../../services";
-import { tradeBlotterColDef } from "./config";
+import { tradeBlotterColDefs } from "./config";
 
 
 export const Blotter: React.FC = (): JSX.Element => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [showNoRowsOverlay, setShowNoRowsOverlay] = useState<boolean>(false);
   const { data } = useGetTradesQuery(undefined, { pollingInterval: 30000});
   const rowClickHandler = useCallback(() => {
@@ -14,7 +15,7 @@ export const Blotter: React.FC = (): JSX.Element => {
     <div>
       <DataGrid
         gridData={data || []}
-        colDefs={tradeBlotterColDef}
+        colDefs={tradeBlotterColDefs}
         size={{height: 1000, width: "100%"}}
         showNoRowsOverlay={showNoRowsOverlay}
         rowClickHandler={rowClickHandler}

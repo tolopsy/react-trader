@@ -1,6 +1,7 @@
+import { ColDef } from "ag-grid-community";
 import { currencyFormatter, dateFormatter } from '../../../utils'
 
-export const tradeBlotterColDef = [
+export const tradeBlotterColDefs: ColDef[] = [
   { field: 'ticketId', sortable: true },
   { field: 'startDate', sortable: true, filter: "agDateColumnFilter", valueFormatter: (params: any) => dateFormatter(params.value) },
   { field: 'endDate', sortable: true, filter: "agDataColumnFilter", valueFormatter: (params: any) => dateFormatter(params.value) },
