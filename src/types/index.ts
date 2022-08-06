@@ -79,7 +79,7 @@ export interface TopTradesApiResponse {
     topTrades: TopTradesObject[];
 }
 export interface RejectedTradesApiResponse {
-    tradeId: string;
+    ticketId: string;
     cptyName: string;
     ticketStatus: string;
     isin: string;
