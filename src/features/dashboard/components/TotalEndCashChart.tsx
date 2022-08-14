@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import * as Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import { DashboardTile } from "./DashboardTile";
-import { useHighChartOptions } from "../hooks/useHighChardOptions";
+import { useHighChartOptions } from "../hooks/useHighChartOptions";
 import { useGetCashByMonthChartDataQuery } from "../../../services";
 import { CashByMonthApiResponse } from "../../../types";
 
