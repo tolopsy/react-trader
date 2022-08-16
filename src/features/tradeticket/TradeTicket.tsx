@@ -1,13 +1,31 @@
 import React from "react";
-import { Typography } from "@mui/material";
+import { CircularProgress, Divider, Typography } from "@mui/material";
+import { styled } from "@mui/material/styles";
+import { useTicketApi } from "./hooks/useTicketApi";
+import { CloudOff } from "@mui/icons-material";
+import { TicketSections } from "./components/TicketSections";
 
+
+
+const TicketStyledWrapper = styled("div")(({ theme }) => ({
+  display: "flex",
+  flexDirection: "column",
+  marginTop: 20,
+  height: "100vh",
+  padding: theme.spacing(0, 1),
+}));
 
 export const TradeTicket: React.FC = (): JSX.Element => {
+  const { loading, hasError, ticketId } = useTicketApi();
   return (
-    <div>
-      <Typography component="div" variant="h3">
+    <TicketStyledWrapper>
+      <Typography component="div" variant="subtitle1">
         TradeTicket
       </Typography>
-    </div>
+      <Divider sx={{m: 2}} />
+      {loading && <CircularProgress color="secondary" />}
+      {hasError && <CloudOff color="secondary" sx={{fontSize: 50}} />}
+      {!loading && !hasError && <TicketSections ticketId={ticketId?.newId} />}
+    </TicketStyledWrapper>
   )
 }
