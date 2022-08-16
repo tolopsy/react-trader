@@ -7,3 +7,4 @@ export {
   useGetCashByMonthChartDataQuery,
   useGetTotalTradesQuery,
 } from './dashboardApi';
+export { ticketApi, useGetNewTicketIdQuery } from './ticketApi';
