@@ -16,7 +16,7 @@ const TicketStyledWrapper = styled("div")(({ theme }) => ({
 }));
 
 export const TradeTicket: React.FC = (): JSX.Element => {
-  const { loading, hasError, ticketId } = useTicketApi();
+  const { loading, hasError, ticketId, bondList, cptyList, ccyList } = useTicketApi();
   return (
     <TicketStyledWrapper>
       <Typography component="div" variant="subtitle1">
@@ -25,7 +25,15 @@ export const TradeTicket: React.FC = (): JSX.Element => {
       <Divider sx={{m: 2}} />
       {loading && <CircularProgress color="secondary" />}
       {hasError && <CloudOff color="secondary" sx={{fontSize: 50}} />}
-      {!loading && !hasError && <TicketSections ticketId={ticketId?.newId} />}
+      {
+        !loading && !hasError && (
+        <TicketSections
+          ticketId={ticketId?.newId}
+          bondList={bondList}
+          cptyList={cptyList}
+          ccyList={ccyList}
+        />
+      )}
     </TicketStyledWrapper>
   )
 }
