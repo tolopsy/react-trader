@@ -1,619 +1,898 @@
 {
-    "trades": [
-        {
-            "bondId": 1,
-            "cleanPrice": 104,
-            "desc": "Test Bond 1",
-            "dirtyPrice": 1320104,
-            "duration": 22,
-            "endCash": 5949999999999.999,
-            "endDate": 1647964879000,
-            "fixed": true,
-            "fullname": "A Counterparty Inc.",
-            "haircut": 10,
-            "isin": "US1TESTBOND2",
-            "issueCcy": "USD",
-            "qtyDirection": "positive",
-            "quantity": "8400000",
-            "repoRate": 1,
-            "repoRateType": "Fixed",
-            "repoYearBasis": "360",
-            "settlementCcy": "EUR",
-            "startCash": 71400000000000,
-            "startDate": 1646964079000,
-            "ticketId": "dbea47u89-9874-8034-7593-8bghreyruvhp",
-            "ticketStatus": "New",
-            "trader": "Demo",
-            "transactionType": "Reverse Repo",
-            "yieldValue": 1.5
-
-        },
-        {
-            "bondId": 2,
-            "cleanPrice": 104,
-            "desc": "Test Bond 2",
-            "dirtyPrice": 1320104,
-            "duration": 22,
-            "endCash": 5949999998999.9,
-            "endDate": 1647965879000,
-            "fixed": true,
-            "fullname": "A Counterparty Inc.",
-            "haircut": 10,
-            "isin": "US1TESTBOND2",
-            "issueCcy": "USD",
-            "qtyDirection": "positive",
-            "quantity": "100000",
-            "repoRate": 1,
-            "repoRateType": "Fixed",
-            "repoYearBasis": "360",
-            "settlementCcy": "EUR",
-            "startCash": 71400000000000,
-            "startDate": 1646964079000,
-            "ticketId": "dbea44u89-1874-2934-7593-8bgarpyrubhp",
-            "ticketStatus": "New",
-            "trader": "Demo",
-            "transactionType": "Reverse Repo",
-            "yieldValue": 1.5
-
-        },
-        {
-            "bondId": 3,
-            "cleanPrice": 104,
-            "desc": "Test Bond 3",
-            "dirtyPrice": 1320104,
-            "duration": 22,
-            "endCash": 459020300.289,
-            "endDate": 1647964879000,
-            "fixed": true,
-            "fullname": "A Counterparty Inc.",
-            "haircut": 10,
-            "isin": "US1TESTBOND2",
-            "issueCcy": "USD",
-            "qtyDirection": "positive",
-            "quantity": "7600600",
-            "repoRate": 1,
-            "repoRateType": "Fixed",
-            "repoYearBasis": "360",
-            "settlementCcy": "EUR",
-            "startCash": 50040000,
-            "startDate": 1646964079000,
-            "ticketId": "dbwa47u85-9874-8034-7593-8bghreqruvlp",
-            "ticketStatus": "New",
-            "trader": "Demo",
-            "transactionType": "Reverse Repo",
-            "yieldValue": 1
-
-        },
-        {
-            "bondId": 4,
-            "cleanPrice": null,
-            "desc": "Test Bond 4",
-            "dirtyPrice": null,
-            "duration": 22,
-            "endCash": null,
-            "endDate": 1646964179900,
-            "fixed": true,
-            "fullname": "A Counterparty Inc.",
-            "haircut": 10,
-            "isin": "US1TESTBOND2",
-            "issueCcy": "USD",
-            "qtyDirection": "positive",
-            "quantity": "4500000",
-            "repoRate": 1,
-            "repoRateType": "Fixed",
-            "repoYearBasis": "360",
-            "settlementCcy": "EUR",
-            "startCash": null,
-            "startDate": 1646964079000,
-            "ticketId": "dbea47u9m-9834-1034-9923-3bthreyruhi",
-            "ticketStatus": "New",
-            "trader": "Demo",
-            "transactionType": "Reverse Repo",
-            "yieldValue": null
-
-        },
-        {
-            "bondId": 5,
-            "cleanPrice": null,
-            "desc": "Test Bond 5",
-            "dirtyPrice": null,
-            "duration": 22,
-            "endCash": null,
-            "endDate": 1646964179900,
-            "fixed": true,
-            "fullname": "A Counterparty Inc.",
-            "haircut": 10,
-            "isin": "US1TESTBOND2",
-            "issueCcy": "USD",
-            "qtyDirection": "positive",
-            "quantity": "965000",
-            "repoRate": 1,
-            "repoRateType": "Fixed",
-            "repoYearBasis": "360",
-            "settlementCcy": "EUR",
-            "startCash": null,
-            "startDate": 1646964079000,
-            "ticketId": "dbsn4gu9v-9834-1034-9923-4btmrekruhi",
-            "ticketStatus": "New",
-            "trader": "Demo",
-            "transactionType": "Reverse Repo",
-            "yieldValue": null
-
-        },
-        {
-            "bondId": 6,
-            "cleanPrice": 12220,
-            "desc": "Test Bond 6",
-            "dirtyPrice": 2532220,
-            "duration": 22,
-            "endCash": 3129075438065,
-            "endDate": 1647964786000,
-            "fixed": true,
-            "fullname": "A Counterparty Inc.",
-            "haircut": 10,
-            "isin": "US1TESTBOND2",
-            "issueCcy": "USD",
-            "qtyDirection": "positive",
-            "quantity": "7700000",
-            "repoRate": 1,
-            "repoRateType": "Fixed",
-            "repoYearBasis": "360",
-            "settlementCcy": "EUR",
-            "startCash": 2065095327094,
-            "startDate": 1646964089000,
-            "ticketId": "dbea47uhu-9873-8024-1593-3bghreyruvhp",
-            "ticketStatus": "New",
-            "trader": "Demo",
-            "transactionType": "Reverse Repo",
-            "yieldValue": 2.5
-
-        },
-        {
-            "bondId": 7,
-            "cleanPrice": null,
-            "desc": "Test Bond 7",
-            "dirtyPrice": null,
-            "duration": 22,
-            "endCash": null,
-            "endDate": 1646964179900,
-            "fixed": true,
-            "fullname": "A Counterparty Inc.",
-            "haircut": 10,
-            "isin": "US1TESTBOND2",
-            "issueCcy": "USD",
-            "qtyDirection": "positive",
-            "quantity": "63400000",
-            "repoRate": 1,
-            "repoRateType": "Fixed",
-            "repoYearBasis": "360",
-            "settlementCcy": "EUR",
-            "startCash": null,
-            "startDate": 1646964079000,
-            "ticketId": "dbsa47u9v-9834-1034-9923-8bthreyruhi",
-            "ticketStatus": "New",
-            "trader": "Demo",
-            "transactionType": "Reverse Repo",
-            "yieldValue": null
-
-        },
-        {
-            "bondId": 8,
-            "cleanPrice": 106,
-            "desc": "Test Bond 8",
-            "dirtyPrice": 60106,
-            "duration": 22,
-            "endCash": 11000389.999,
-            "endDate": 1647964879000,
-            "fixed": true,
-            "fullname": "A Counterparty Inc.",
-            "haircut": 10,
-            "isin": "US1TESTBOND9",
-            "issueCcy": "USD",
-            "qtyDirection": "positive",
-            "quantity": "8400000",
-            "repoRate": 1,
-            "repoRateType": "Fixed",
-            "repoYearBasis": "360",
-            "settlementCcy": "EUR",
-            "startCash": 99999000000,
-            "startDate": 1646964079000,
-            "ticketId": "dbea47jz5-9874-8034-7593-8bshrbyruvhp",
-            "ticketStatus": "New",
-            "trader": "Demo",
-            "transactionType": "Reverse Repo",
-            "yieldValue": 1.5
-
-        },
-        {
-            "bondId": 9,
-            "cleanPrice": 108,
-            "desc": "Test Bond 9",
-            "dirtyPrice": null,
-            "duration": 22,
-            "endCash": null,
-            "endDate": 1646964179900,
-            "fixed": true,
-            "fullname": "A Counterparty Inc.",
-            "haircut": 10,
-            "isin": "US1TESTBOND2",
-            "issueCcy": "USD",
-            "qtyDirection": "positive",
-            "quantity": "2410000",
-            "repoRate": 1,
-            "repoRateType": "Fixed",
-            "repoYearBasis": "360",
-            "settlementCcy": "EUR",
-            "startCash": 0,
-            "startDate": 1646964079000,
-            "ticketId": "dbsa43409-3814-8039-7953-7bgzreyvuvhp",
-            "ticketStatus": "New",
-            "trader": "Demo",
-            "transactionType": "Reverse Repo",
-            "yieldValue": null
-
-        },
-        {
-            "bondId": 10,
-            "cleanPrice": 108,
-            "desc": "Test Bond 10",
-            "dirtyPrice": 60108,
-            "duration": 22,
-            "endCash": 11000389.999,
-            "endDate": 1647964879000,
-            "fixed": true,
-            "fullname": "A Counterparty Inc.",
-            "haircut": 10,
-            "isin": "US1TESTBOND2",
-            "issueCcy": "USD",
-            "qtyDirection": "positive",
-            "quantity": "8460000",
-            "repoRate": 1,
-            "repoRateType": "Fixed",
-            "repoYearBasis": "360",
-            "settlementCcy": "EUR",
-            "startCash": 10000000,
-            "startDate": 1646964079000,
-            "ticketId": "dbea47j89-9874-8034-7593-8brhrbyruvhp",
-            "ticketStatus": "New",
-            "trader": "Demo",
-            "transactionType": "Reverse Repo",
-            "yieldValue": 1.5
-
-        },
-        {
-            "bondId": 11,
-            "cleanPrice": null,
-            "desc": "Test Bond 11",
-            "dirtyPrice": null,
-            "duration": 22,
-            "endCash": null,
-            "endDate": 1646964179900,
-            "fixed": true,
-            "fullname": "A Counterparty Inc.",
-            "haircut": 10,
-            "isin": "US1TESTBOND2",
-            "issueCcy": "USD",
-            "qtyDirection": "positive",
-            "quantity": "7410000",
-            "repoRate": 1,
-            "repoRateType": "Fixed",
-            "repoYearBasis": "360",
-            "settlementCcy": "EUR",
-            "startCash": null,
-            "startDate": 1646964079000,
-            "ticketId": "dbsa47u09-9814-8034-7993-8bghreyruvhp",
-            "ticketStatus": "New",
-            "trader": "Demo",
-            "transactionType": "Reverse Repo",
-            "yieldValue": null
-
-        },
-        {
-            "bondId": 12,
-            "cleanPrice": 108,
-            "desc": "Test Bond 1",
-            "dirtyPrice": 247108,
-            "duration": 22,
-            "endCash": 198576300000.899,
-            "endDate": 1647964879000,
-            "fixed": true,
-            "fullname": "A Counterparty Inc.",
-            "haircut": 10,
-            "isin": "US1TESTBOND13",
-            "issueCcy": "USD",
-            "qtyDirection": "positive",
-            "quantity": "8407000",
-            "repoRate": 1,
-            "repoRateType": "Fixed",
-            "repoYearBasis": "360",
-            "settlementCcy": "EUR",
-            "startCash": 228233100000,
-            "startDate": 1646964079000,
-            "ticketId": "dbea47u80-9834-8031-7597-8bgoreyrvfhp",
-            "ticketStatus": "New",
-            "trader": "Demo",
-            "transactionType": "Reverse Repo",
-            "yieldValue": 0.3
-
-        },
-        {
-            "bondId": 13,
-            "cleanPrice": 232323,
-            "desc": "Test Bond 13",
-            "dirtyPrice": -1567677,
-            "duration": 22,
-            "endCash": 5949999999999.999,
-            "endDate": 1647964879000,
-            "fixed": true,
-            "fullname": "A Counterparty Inc.",
-            "haircut": 10,
-            "isin": "US1TESTBOND17",
-            "issueCcy": "USD",
-            "qtyDirection": "positive",
-            "quantity": "5900000",
-            "repoRate": 1,
-            "repoRateType": "Fixed",
-            "repoYearBasis": "360",
-            "settlementCcy": "EUR",
-            "startCash": 3484845000,
-            "startDate": 1646964079000,
-            "ticketId": "db1ae7tu9-9814-8634-7593-7bghre5ruvhp",
-            "ticketStatus": "New",
-            "trader": "Demo",
-            "transactionType": "Reverse Repo",
-            "yieldValue": 2.5
-
-        },
-        {
-            "bondId": 14,
-            "cleanPrice": 232323,
-            "desc": "Test Bond 14",
-            "dirtyPrice": -1567677,
-            "duration": 22,
-            "endCash": 5949999999999.999,
-            "endDate": 1647964879000,
-            "fixed": true,
-            "fullname": "A Counterparty Inc.",
-            "haircut": 10,
-            "isin": "US1TESTBOND15",
-            "issueCcy": "USD",
-            "qtyDirection": "positive",
-            "quantity": "6400000",
-            "repoRate": 1,
-            "repoRateType": "Fixed",
-            "repoYearBasis": "360",
-            "settlementCcy": "EUR",
-            "startCash": 3484845000,
-            "startDate": 1646964079000,
-            "ticketId": "dbeae7t89-9814-8934-7593-8bghre5ruvhp",
-            "ticketStatus": "New",
-            "trader": "Demo",
-            "transactionType": "Reverse Repo",
-            "yieldValue": 2.5
-
-        },
-        {
-            "bondId": 15,
-            "cleanPrice": 232323,
-            "desc": "Test Bond 15",
-            "dirtyPrice": -1567677,
-            "duration": 22,
-            "endCash": 5949999999999.999,
-            "endDate": 1647964879000,
-            "fixed": true,
-            "fullname": "A Counterparty Inc.",
-            "haircut": 10,
-            "isin": "US1TESTBOND17",
-            "issueCcy": "USD",
-            "qtyDirection": "positive",
-            "quantity": "8400000",
-            "repoRate": 1,
-            "repoRateType": "Fixed",
-            "repoYearBasis": "360",
-            "settlementCcy": "EUR",
-            "startCash": 3484845000,
-            "startDate": 1646964079000,
-            "ticketId": "dbeat1t89-9814-7934-4593-8bghregftvhp",
-            "ticketStatus": "New",
-            "trader": "Demo",
-            "transactionType": "Reverse Repo",
-            "yieldValue": 2.5
-
-        },
-        {
-            "bondId": 16,
-            "cleanPrice": 232323,
-            "desc": "Test Bond 16",
-            "dirtyPrice": -1567677,
-            "duration": 22,
-            "endCash": 5949999999999.999,
-            "endDate": 1647964879000,
-            "fixed": true,
-            "fullname": "A Counterparty Inc.",
-            "haircut": 10,
-            "isin": "US1TESTBOND17",
-            "issueCcy": "USD",
-            "qtyDirection": "positive",
-            "quantity": "3400000",
-            "repoRate": 1,
-            "repoRateType": "Fixed",
-            "repoYearBasis": "360",
-            "settlementCcy": "EUR",
-            "startCash": 3484845000,
-            "startDate": 1646964079000,
-            "ticketId": "dbeam7g89-9813-8934-7513-8bgire5yuvhp",
-            "ticketStatus": "New",
-            "trader": "Demo",
-            "transactionType": "Reverse Repo",
-            "yieldValue": 2.5
-
-        },
-        {
-            "bondId": 17,
-            "cleanPrice": 4545,
-            "desc": "Test Bond 17",
-            "dirtyPrice": 64545,
-            "duration": 22,
-            "endCash": 5949999999999.999,
-            "endDate": 1846985009030,
-            "fixed": true,
-            "fullname": "A Counterparty Inc.",
-            "haircut": 10,
-            "isin": "US1TESTBOND2",
-            "issueCcy": "USD",
-            "qtyDirection": "positive",
-            "quantity": "3650000",
-            "repoRate": 1,
-            "repoRateType": "Fixed",
-            "repoYearBasis": "360",
-            "settlementCcy": "EUR",
-            "startCash": 24842738430,
-            "startDate": 1846974009000,
-            "ticketId": "dbea47u89-9874-8034-7593-8bghreyruvhp",
-            "ticketStatus": "New",
-            "trader": "Demo",
-            "transactionType": "Reverse Repo",
-            "yieldValue": 2.5
-
-        }
-    ],
-    "rejectedtrades": [
-        {
-            "ticketId": "584521-564s",
-            "cptyName": "A Counterparty Inc",
-            "isin": "GB1234567",
-            "ticketStatus": "Rejected",
-            "error": "Rejected. Market Data outdated"
-        },
-        {
-            "ticketId": "584521-565s",
-            "cptyName": "A Counterparty Inc",
-            "isin": "XD5613598",
-            "ticketStatus": "Rejected",
-            "error": "Rejected. Accrued interest not calculated"
-        }
-    ],
-    "toptrades": {
-        "topTrades": [
-            {
-                "tradeId": "6f795876-98q6-g92e-8ty83f28ry",
-                "value": 150000000
-            },
-            {
-                "tradeId": "6fe48876-9wq6-gu2e-8ty83i20ry",
-                "value": 120000000
-            },
-            {
-                "tradeId": "5fe4w876-twq6-pu2e-v1y83u20ry",
-                "value": 1205000000
-            },
-            {
-                "tradeId": "3fg48876-bwq6-4u2e-yt583i20ry",
-                "value": 420000000
-            },
-            {
-                "tradeId": "ffh48876-9wq6-gu2e-8ty83i20ra",
-                "value": 3200000000
-            },
-            {
-                "tradeId": "bfe4i876-awq6-7u2e-vty83i20ry",
-                "value": 13600500000
-            },
-            {
-                "tradeId": "6fea887v-gwq6-8u2e-2ty83c20ry",
-                "value": 5420000000
-            },
-            {
-                "tradeId": "6fas8y76-sw26-8u25-1tg83i20ry",
-                "value": 78120000000
-            },
-            {
-                "tradeId": "afe47df6-xw96-bune-mty89i20r1",
-                "value": 6200900000
-            },
-            {
-                "tradeId": "6fe48g76-9aqs-1ufe-hjy87i20ey",
-                "value": 895000000
-            }
-        ]
+  "trades": [
+    {
+      "bondId": 1,
+      "cleanPrice": 104,
+      "desc": "Test Bond 1",
+      "dirtyPrice": 1320104,
+      "duration": 22,
+      "endCash": 5949999999999.999,
+      "endDate": 1647964879000,
+      "fixed": true,
+      "fullname": "A Counterparty Inc.",
+      "haircut": 10,
+      "isin": "US1TESTBOND2",
+      "issueCcy": "USD",
+      "qtyDirection": "positive",
+      "quantity": "8400000",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "settlementCcy": "EUR",
+      "startCash": 71400000000000,
+      "startDate": 1646964079000,
+      "ticketId": "dbea47u89-9874-8034-7593-8bghreyruvhp",
+      "ticketStatus": "New",
+      "trader": "Demo",
+      "transactionType": "Reverse Repo",
+      "yieldValue": 1.5
     },
-    "totalclients": {
-        "totalClients": 6
+    {
+      "bondId": 2,
+      "cleanPrice": 104,
+      "desc": "Test Bond 2",
+      "dirtyPrice": 1320104,
+      "duration": 22,
+      "endCash": 5949999998999.9,
+      "endDate": 1647965879000,
+      "fixed": true,
+      "fullname": "A Counterparty Inc.",
+      "haircut": 10,
+      "isin": "US1TESTBOND2",
+      "issueCcy": "USD",
+      "qtyDirection": "positive",
+      "quantity": "100000",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "settlementCcy": "EUR",
+      "startCash": 71400000000000,
+      "startDate": 1646964079000,
+      "ticketId": "dbea44u89-1874-2934-7593-8bgarpyrubhp",
+      "ticketStatus": "New",
+      "trader": "Demo",
+      "transactionType": "Reverse Repo",
+      "yieldValue": 1.5
     },
-    "totaltrades": {
-        "totalTrades": 18
-    }, 
-    "cashbymonth": [
-        {
-            "name": "Repo",
-            "data": [
-                {"y": 550000000},
-                {"y": 300980000},
-                {"y": 709980000},
-                {"y": 600500000},
-                {"y": 850000000},
-                {"y": 250685000},
-                {"y": 900500000},
-                {"y": 1800000000},
-                {"y": 450070000},
-                {"y": 110500000},
-                {"y": 300000000},
-                {"y": 1650980000}
-            ]
-        },
-        {
-            "name": "Reverse Repo",
-            "data": [
-                {"y": 230000000},
-                {"y": 710980000},
-                {"y": 1409980000},
-                {"y": 490500000},
-                {"y": 100000000},
-                {"y": 800605000},
-                {"y": 300500000},
-                {"y": 900000000},
-                {"y": 750070000},
-                {"y": 97900000},
-                {"y": 600000000},
-                {"y": 250980000}
-            ]
-        },
-        {
-            "name": "Sell Buy",
-            "data": [
-                {"y": 630000000},
-                {"y": 40980000},
-                {"y": 409980000},
-                {"y": 890500000},
-                {"y": 390000000},
-                {"y": 300605000},
-                {"y": 240500000},
-                {"y": 1400000000},
-                {"y": 950070000},
-                {"y": 170000000},
-                {"y": 1600000000},
-                {"y": 750980000}
-            ]
-        },
-        {
-            "name": "Buy Sell",
-            "data": [
-                {"y": 450000000},
-                {"y": 120980000},
-                {"y": 1309980000},
-                {"y": 990500000},
-                {"y": 500000000},
-                {"y": 800605000},
-                {"y": 490500000},
-                {"y": 600000000},
-                {"y": 750070000},
-                {"y": 400000000},
-                {"y": 800000000},
-                {"y": 1650980000}
-            ]
-        }
-    ],
-    "new_trade_id": {
-        "newId": "67494-0894-u9ty-63879"
+    {
+      "bondId": 3,
+      "cleanPrice": 104,
+      "desc": "Test Bond 3",
+      "dirtyPrice": 1320104,
+      "duration": 22,
+      "endCash": 459020300.289,
+      "endDate": 1647964879000,
+      "fixed": true,
+      "fullname": "A Counterparty Inc.",
+      "haircut": 10,
+      "isin": "US1TESTBOND2",
+      "issueCcy": "USD",
+      "qtyDirection": "positive",
+      "quantity": "7600600",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "settlementCcy": "EUR",
+      "startCash": 50040000,
+      "startDate": 1646964079000,
+      "ticketId": "dbwa47u85-9874-8034-7593-8bghreqruvlp",
+      "ticketStatus": "New",
+      "trader": "Demo",
+      "transactionType": "Reverse Repo",
+      "yieldValue": 1
+    },
+    {
+      "bondId": 4,
+      "cleanPrice": null,
+      "desc": "Test Bond 4",
+      "dirtyPrice": null,
+      "duration": 22,
+      "endCash": null,
+      "endDate": 1646964179900,
+      "fixed": true,
+      "fullname": "A Counterparty Inc.",
+      "haircut": 10,
+      "isin": "US1TESTBOND2",
+      "issueCcy": "USD",
+      "qtyDirection": "positive",
+      "quantity": "4500000",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "settlementCcy": "EUR",
+      "startCash": null,
+      "startDate": 1646964079000,
+      "ticketId": "dbea47u9m-9834-1034-9923-3bthreyruhi",
+      "ticketStatus": "New",
+      "trader": "Demo",
+      "transactionType": "Reverse Repo",
+      "yieldValue": null
+    },
+    {
+      "bondId": 5,
+      "cleanPrice": null,
+      "desc": "Test Bond 5",
+      "dirtyPrice": null,
+      "duration": 22,
+      "endCash": null,
+      "endDate": 1646964179900,
+      "fixed": true,
+      "fullname": "A Counterparty Inc.",
+      "haircut": 10,
+      "isin": "US1TESTBOND2",
+      "issueCcy": "USD",
+      "qtyDirection": "positive",
+      "quantity": "965000",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "settlementCcy": "EUR",
+      "startCash": null,
+      "startDate": 1646964079000,
+      "ticketId": "dbsn4gu9v-9834-1034-9923-4btmrekruhi",
+      "ticketStatus": "New",
+      "trader": "Demo",
+      "transactionType": "Reverse Repo",
+      "yieldValue": null
+    },
+    {
+      "bondId": 6,
+      "cleanPrice": 12220,
+      "desc": "Test Bond 6",
+      "dirtyPrice": 2532220,
+      "duration": 22,
+      "endCash": 3129075438065,
+      "endDate": 1647964786000,
+      "fixed": true,
+      "fullname": "A Counterparty Inc.",
+      "haircut": 10,
+      "isin": "US1TESTBOND2",
+      "issueCcy": "USD",
+      "qtyDirection": "positive",
+      "quantity": "7700000",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "settlementCcy": "EUR",
+      "startCash": 2065095327094,
+      "startDate": 1646964089000,
+      "ticketId": "dbea47uhu-9873-8024-1593-3bghreyruvhp",
+      "ticketStatus": "New",
+      "trader": "Demo",
+      "transactionType": "Reverse Repo",
+      "yieldValue": 2.5
+    },
+    {
+      "bondId": 7,
+      "cleanPrice": null,
+      "desc": "Test Bond 7",
+      "dirtyPrice": null,
+      "duration": 22,
+      "endCash": null,
+      "endDate": 1646964179900,
+      "fixed": true,
+      "fullname": "A Counterparty Inc.",
+      "haircut": 10,
+      "isin": "US1TESTBOND2",
+      "issueCcy": "USD",
+      "qtyDirection": "positive",
+      "quantity": "63400000",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "settlementCcy": "EUR",
+      "startCash": null,
+      "startDate": 1646964079000,
+      "ticketId": "dbsa47u9v-9834-1034-9923-8bthreyruhi",
+      "ticketStatus": "New",
+      "trader": "Demo",
+      "transactionType": "Reverse Repo",
+      "yieldValue": null
+    },
+    {
+      "bondId": 8,
+      "cleanPrice": 106,
+      "desc": "Test Bond 8",
+      "dirtyPrice": 60106,
+      "duration": 22,
+      "endCash": 11000389.999,
+      "endDate": 1647964879000,
+      "fixed": true,
+      "fullname": "A Counterparty Inc.",
+      "haircut": 10,
+      "isin": "US1TESTBOND9",
+      "issueCcy": "USD",
+      "qtyDirection": "positive",
+      "quantity": "8400000",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "settlementCcy": "EUR",
+      "startCash": 99999000000,
+      "startDate": 1646964079000,
+      "ticketId": "dbea47jz5-9874-8034-7593-8bshrbyruvhp",
+      "ticketStatus": "New",
+      "trader": "Demo",
+      "transactionType": "Reverse Repo",
+      "yieldValue": 1.5
+    },
+    {
+      "bondId": 9,
+      "cleanPrice": 108,
+      "desc": "Test Bond 9",
+      "dirtyPrice": null,
+      "duration": 22,
+      "endCash": null,
+      "endDate": 1646964179900,
+      "fixed": true,
+      "fullname": "A Counterparty Inc.",
+      "haircut": 10,
+      "isin": "US1TESTBOND2",
+      "issueCcy": "USD",
+      "qtyDirection": "positive",
+      "quantity": "2410000",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "settlementCcy": "EUR",
+      "startCash": 0,
+      "startDate": 1646964079000,
+      "ticketId": "dbsa43409-3814-8039-7953-7bgzreyvuvhp",
+      "ticketStatus": "New",
+      "trader": "Demo",
+      "transactionType": "Reverse Repo",
+      "yieldValue": null
+    },
+    {
+      "bondId": 10,
+      "cleanPrice": 108,
+      "desc": "Test Bond 10",
+      "dirtyPrice": 60108,
+      "duration": 22,
+      "endCash": 11000389.999,
+      "endDate": 1647964879000,
+      "fixed": true,
+      "fullname": "A Counterparty Inc.",
+      "haircut": 10,
+      "isin": "US1TESTBOND2",
+      "issueCcy": "USD",
+      "qtyDirection": "positive",
+      "quantity": "8460000",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "settlementCcy": "EUR",
+      "startCash": 10000000,
+      "startDate": 1646964079000,
+      "ticketId": "dbea47j89-9874-8034-7593-8brhrbyruvhp",
+      "ticketStatus": "New",
+      "trader": "Demo",
+      "transactionType": "Reverse Repo",
+      "yieldValue": 1.5
+    },
+    {
+      "bondId": 11,
+      "cleanPrice": null,
+      "desc": "Test Bond 11",
+      "dirtyPrice": null,
+      "duration": 22,
+      "endCash": null,
+      "endDate": 1646964179900,
+      "fixed": true,
+      "fullname": "A Counterparty Inc.",
+      "haircut": 10,
+      "isin": "US1TESTBOND2",
+      "issueCcy": "USD",
+      "qtyDirection": "positive",
+      "quantity": "7410000",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "settlementCcy": "EUR",
+      "startCash": null,
+      "startDate": 1646964079000,
+      "ticketId": "dbsa47u09-9814-8034-7993-8bghreyruvhp",
+      "ticketStatus": "New",
+      "trader": "Demo",
+      "transactionType": "Reverse Repo",
+      "yieldValue": null
+    },
+    {
+      "bondId": 12,
+      "cleanPrice": 108,
+      "desc": "Test Bond 1",
+      "dirtyPrice": 247108,
+      "duration": 22,
+      "endCash": 198576300000.899,
+      "endDate": 1647964879000,
+      "fixed": true,
+      "fullname": "A Counterparty Inc.",
+      "haircut": 10,
+      "isin": "US1TESTBOND13",
+      "issueCcy": "USD",
+      "qtyDirection": "positive",
+      "quantity": "8407000",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "settlementCcy": "EUR",
+      "startCash": 228233100000,
+      "startDate": 1646964079000,
+      "ticketId": "dbea47u80-9834-8031-7597-8bgoreyrvfhp",
+      "ticketStatus": "New",
+      "trader": "Demo",
+      "transactionType": "Reverse Repo",
+      "yieldValue": 0.3
+    },
+    {
+      "bondId": 13,
+      "cleanPrice": 232323,
+      "desc": "Test Bond 13",
+      "dirtyPrice": -1567677,
+      "duration": 22,
+      "endCash": 5949999999999.999,
+      "endDate": 1647964879000,
+      "fixed": true,
+      "fullname": "A Counterparty Inc.",
+      "haircut": 10,
+      "isin": "US1TESTBOND17",
+      "issueCcy": "USD",
+      "qtyDirection": "positive",
+      "quantity": "5900000",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "settlementCcy": "EUR",
+      "startCash": 3484845000,
+      "startDate": 1646964079000,
+      "ticketId": "db1ae7tu9-9814-8634-7593-7bghre5ruvhp",
+      "ticketStatus": "New",
+      "trader": "Demo",
+      "transactionType": "Reverse Repo",
+      "yieldValue": 2.5
+    },
+    {
+      "bondId": 14,
+      "cleanPrice": 232323,
+      "desc": "Test Bond 14",
+      "dirtyPrice": -1567677,
+      "duration": 22,
+      "endCash": 5949999999999.999,
+      "endDate": 1647964879000,
+      "fixed": true,
+      "fullname": "A Counterparty Inc.",
+      "haircut": 10,
+      "isin": "US1TESTBOND15",
+      "issueCcy": "USD",
+      "qtyDirection": "positive",
+      "quantity": "6400000",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "settlementCcy": "EUR",
+      "startCash": 3484845000,
+      "startDate": 1646964079000,
+      "ticketId": "dbeae7t89-9814-8934-7593-8bghre5ruvhp",
+      "ticketStatus": "New",
+      "trader": "Demo",
+      "transactionType": "Reverse Repo",
+      "yieldValue": 2.5
+    },
+    {
+      "bondId": 15,
+      "cleanPrice": 232323,
+      "desc": "Test Bond 15",
+      "dirtyPrice": -1567677,
+      "duration": 22,
+      "endCash": 5949999999999.999,
+      "endDate": 1647964879000,
+      "fixed": true,
+      "fullname": "A Counterparty Inc.",
+      "haircut": 10,
+      "isin": "US1TESTBOND17",
+      "issueCcy": "USD",
+      "qtyDirection": "positive",
+      "quantity": "8400000",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "settlementCcy": "EUR",
+      "startCash": 3484845000,
+      "startDate": 1646964079000,
+      "ticketId": "dbeat1t89-9814-7934-4593-8bghregftvhp",
+      "ticketStatus": "New",
+      "trader": "Demo",
+      "transactionType": "Reverse Repo",
+      "yieldValue": 2.5
+    },
+    {
+      "bondId": 16,
+      "cleanPrice": 232323,
+      "desc": "Test Bond 16",
+      "dirtyPrice": -1567677,
+      "duration": 22,
+      "endCash": 5949999999999.999,
+      "endDate": 1647964879000,
+      "fixed": true,
+      "fullname": "A Counterparty Inc.",
+      "haircut": 10,
+      "isin": "US1TESTBOND17",
+      "issueCcy": "USD",
+      "qtyDirection": "positive",
+      "quantity": "3400000",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "settlementCcy": "EUR",
+      "startCash": 3484845000,
+      "startDate": 1646964079000,
+      "ticketId": "dbeam7g89-9813-8934-7513-8bgire5yuvhp",
+      "ticketStatus": "New",
+      "trader": "Demo",
+      "transactionType": "Reverse Repo",
+      "yieldValue": 2.5
+    },
+    {
+      "bondId": 17,
+      "cleanPrice": 4545,
+      "desc": "Test Bond 17",
+      "dirtyPrice": 64545,
+      "duration": 22,
+      "endCash": 5949999999999.999,
+      "endDate": 1846985009030,
+      "fixed": true,
+      "fullname": "A Counterparty Inc.",
+      "haircut": 10,
+      "isin": "US1TESTBOND2",
+      "issueCcy": "USD",
+      "qtyDirection": "positive",
+      "quantity": "3650000",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "settlementCcy": "EUR",
+      "startCash": 24842738430,
+      "startDate": 1846974009000,
+      "ticketId": "dbea47u89-9874-8034-7593-8bghreyruvhp",
+      "ticketStatus": "New",
+      "trader": "Demo",
+      "transactionType": "Reverse Repo",
+      "yieldValue": 2.5
     }
+  ],
+  "rejectedtrades": [
+    {
+      "ticketId": "584521-564s",
+      "cptyName": "A Counterparty Inc",
+      "isin": "GB1234567",
+      "ticketStatus": "Rejected",
+      "error": "Rejected. Market Data outdated"
+    },
+    {
+      "ticketId": "584521-565s",
+      "cptyName": "A Counterparty Inc",
+      "isin": "XD5613598",
+      "ticketStatus": "Rejected",
+      "error": "Rejected. Accrued interest not calculated"
+    }
+  ],
+  "toptrades": {
+    "topTrades": [
+      {
+        "tradeId": "6f795876-98q6-g92e-8ty83f28ry",
+        "value": 150000000
+      },
+      {
+        "tradeId": "6fe48876-9wq6-gu2e-8ty83i20ry",
+        "value": 120000000
+      },
+      {
+        "tradeId": "5fe4w876-twq6-pu2e-v1y83u20ry",
+        "value": 1205000000
+      },
+      {
+        "tradeId": "3fg48876-bwq6-4u2e-yt583i20ry",
+        "value": 420000000
+      },
+      {
+        "tradeId": "ffh48876-9wq6-gu2e-8ty83i20ra",
+        "value": 3200000000
+      },
+      {
+        "tradeId": "bfe4i876-awq6-7u2e-vty83i20ry",
+        "value": 13600500000
+      },
+      {
+        "tradeId": "6fea887v-gwq6-8u2e-2ty83c20ry",
+        "value": 5420000000
+      },
+      {
+        "tradeId": "6fas8y76-sw26-8u25-1tg83i20ry",
+        "value": 78120000000
+      },
+      {
+        "tradeId": "afe47df6-xw96-bune-mty89i20r1",
+        "value": 6200900000
+      },
+      {
+        "tradeId": "6fe48g76-9aqs-1ufe-hjy87i20ey",
+        "value": 895000000
+      }
+    ]
+  },
+  "totalclients": {
+    "totalClients": 6
+  },
+  "totaltrades": {
+    "totalTrades": 18
+  },
+  "cashbymonth": [
+    {
+      "name": "Repo",
+      "data": [
+        {
+          "y": 550000000
+        },
+        {
+          "y": 300980000
+        },
+        {
+          "y": 709980000
+        },
+        {
+          "y": 600500000
+        },
+        {
+          "y": 850000000
+        },
+        {
+          "y": 250685000
+        },
+        {
+          "y": 900500000
+        },
+        {
+          "y": 1800000000
+        },
+        {
+          "y": 450070000
+        },
+        {
+          "y": 110500000
+        },
+        {
+          "y": 300000000
+        },
+        {
+          "y": 1650980000
+        }
+      ]
+    },
+    {
+      "name": "Reverse Repo",
+      "data": [
+        {
+          "y": 230000000
+        },
+        {
+          "y": 710980000
+        },
+        {
+          "y": 1409980000
+        },
+        {
+          "y": 490500000
+        },
+        {
+          "y": 100000000
+        },
+        {
+          "y": 800605000
+        },
+        {
+          "y": 300500000
+        },
+        {
+          "y": 900000000
+        },
+        {
+          "y": 750070000
+        },
+        {
+          "y": 97900000
+        },
+        {
+          "y": 600000000
+        },
+        {
+          "y": 250980000
+        }
+      ]
+    },
+    {
+      "name": "Sell Buy",
+      "data": [
+        {
+          "y": 630000000
+        },
+        {
+          "y": 40980000
+        },
+        {
+          "y": 409980000
+        },
+        {
+          "y": 890500000
+        },
+        {
+          "y": 390000000
+        },
+        {
+          "y": 300605000
+        },
+        {
+          "y": 240500000
+        },
+        {
+          "y": 1400000000
+        },
+        {
+          "y": 950070000
+        },
+        {
+          "y": 170000000
+        },
+        {
+          "y": 1600000000
+        },
+        {
+          "y": 750980000
+        }
+      ]
+    },
+    {
+      "name": "Buy Sell",
+      "data": [
+        {
+          "y": 450000000
+        },
+        {
+          "y": 120980000
+        },
+        {
+          "y": 1309980000
+        },
+        {
+          "y": 990500000
+        },
+        {
+          "y": 500000000
+        },
+        {
+          "y": 800605000
+        },
+        {
+          "y": 490500000
+        },
+        {
+          "y": 600000000
+        },
+        {
+          "y": 750070000
+        },
+        {
+          "y": 400000000
+        },
+        {
+          "y": 800000000
+        },
+        {
+          "y": 1650980000
+        }
+      ]
+    }
+  ],
+  "new_trade_id": {
+    "newId": "67494-0894-u9ty-63879"
+  },
+  "bondlist": [
+    {
+      "bondId": "1",
+      "isin": "US1TESTBOND2",
+      "desc": "",
+      "issueCcy": "USD"
+    },
+    {
+      "bondId": "2",
+      "isin": "US1234567890",
+      "desc": "",
+      "issueCcy": "USD"
+    },
+    {
+      "bondId": "3",
+      "isin": "GB1234567890",
+      "desc": "",
+      "issueCcy": "GBP"
+    },
+    {
+      "bondId": "4",
+      "isin": "XS1234567890",
+      "desc": "",
+      "issueCcy": "USD"
+    },
+    {
+      "bondId": "5",
+      "isin": "JP1234567890",
+      "desc": "",
+      "issueCcy": "JPY"
+    },
+    {
+      "bondId": "6",
+      "isin": "DE1234567890",
+      "desc": "",
+      "issueCcy": "EUR"
+    },
+    {
+      "bondId": "7",
+      "isin": "DE1234567891",
+      "desc": "",
+      "issueCcy": "EUR"
+    }
+  ],
+  "counterparties": [
+    {
+      "counterpartyId": 1,
+      "nick": "A",
+      "cparty": "A Counterparty",
+      "fullname": "A Counterparty Inc"
+    },
+    {
+      "counterpartyId": 2,
+      "nick": "B",
+      "cparty": "B Counterparty",
+      "fullname": "B Counterparty Inc"
+    },
+    {
+      "counterpartyId": 3,
+      "nick": "C",
+      "cparty": "C Counterparty",
+      "fullname": "C Counterparty Inc"
+    },
+    {
+      "counterpartyId": 4,
+      "nick": "D",
+      "cparty": "D Counterparty",
+      "fullname": "D Counterparty Inc"
+    },
+    {
+      "counterpartyId": 5,
+      "nick": "E",
+      "cparty": "E Counterparty",
+      "fullname": "E Counterparty Inc"
+    }
+  ],
+  "ccy": [
+    {
+      "symbol": "$",
+      "name": "US Dollar",
+      "decimal_digits": 2,
+      "rounding": 0,
+      "code": "USD"
+    },
+    {
+      "symbol": "₦",
+      "name": "Nigerian Naira",
+      "decimal_digits": 2,
+      "rounding": 0,
+      "code": "NGN"
+    },
+    {
+      "symbol": "£",
+      "name": "Sterling",
+      "decimal_digits": 2,
+      "rounding": 0,
+      "code": "GBP"
+    },
+    {
+      "symbol": "€",
+      "name": "Euro",
+      "decimal_digits": 2,
+      "rounding": 0,
+      "code": "EUR"
+    }
+  ],
+  "calculate": [
+    {
+      "cleanPrice": 567,
+      "haircut": 10,
+      "startCash": 5008,
+      "duration": 1,
+      "transactionType": "Reverse Repo",
+      "fixed": true,
+      "quantity": "600",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "isin": "US1234567890",
+      "id": 1
+    },
+    {
+      "cleanPrice": 5676,
+      "haircut": 10,
+      "startCash": 50087,
+      "duration": 1,
+      "transactionType": "Reverse Repo",
+      "fixed": true,
+      "quantity": "600",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "isin": "US1234567890",
+      "id": 2
+    },
+    {
+      "cleanPrice": 5676,
+      "haircut": 10,
+      "startCash": 500876,
+      "duration": 1,
+      "transactionType": "Reverse Repo",
+      "fixed": true,
+      "quantity": "6005",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "isin": "US1234567890",
+      "yieldValue": 1.5,
+      "dirtyPrice": 8514,
+      "endCash": 751314,
+      "id": 3
+    },
+    {
+      "cleanPrice": 5680,
+      "haircut": 10,
+      "startCash": 6893,
+      "duration": 1,
+      "transactionType": "Reverse Repo",
+      "fixed": true,
+      "quantity": "679",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "isin": "GB1234567890",
+      "yieldValue": 1.5,
+      "dirtyPrice": 8520,
+      "endCash": 10339.5,
+      "id": 4
+    }
+  ],
+  "execute": [
+    {
+      "cleanPrice": 5680,
+      "dirtyPrice": 8520,
+      "yieldValue": 1.5,
+      "haircut": 10,
+      "startCash": 6893,
+      "endCash": 10339.5,
+      "duration": 1,
+      "transactionType": "Reverse Repo",
+      "fixed": true,
+      "quantity": "679",
+      "repoRate": 1,
+      "repoRateType": "Fixed",
+      "repoYearBasis": "360",
+      "isin": "GB1234567890",
+      "id": 4,
+      "startDate": 1660968859099,
+      "endDate": 1661141659099,
+      "trader": "Demo",
+      "ticketStatus": "New",
+      "settlementCcy": "NGN",
+      "desc": "",
+      "issueCcy": "GBP",
+      "bondId": "3",
+      "fullname": "D Counterparty Inc",
+      "ticketId": "67494-0894-u9ty-63879",
+      "status": "success"
+    }
+  ]
 }
