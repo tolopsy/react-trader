@@ -9,6 +9,18 @@ export enum TicketStatus {
   Rejected = "Rejected",
 }
 
+export enum RepoYearBasis {
+  R360 = "360",
+  R365 = "365",
+  R3060 = "30/360"
+}
+
+export enum RepoRateType {
+  Fixed = "Fixed",
+  Indexed = "Indexed",
+  Variable = "Variable"
+}
+
 export interface ITicketDefaults {
   transactionType: TransactionTypes;
   startDate: number;
